@@ -1,0 +1,34 @@
+.feature_container {
+  width: 100rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.feature_card_wrapper {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+}
+
+.feature_card {
+  /* padding: 0rem 0rem; */
+  padding-left: 1rem;
+  /* width: 30rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(126, 126, 233, 0.3);
+  border-radius: 0.2rem;
+}
+.feature_card .feature_card_title {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.feature_card_right {
+  padding: 1rem 2rem;
+  background-color: rgba(204, 229, 251, 0.9);
+}
+.feature_card_right img {
+  width: 10rem;
+}

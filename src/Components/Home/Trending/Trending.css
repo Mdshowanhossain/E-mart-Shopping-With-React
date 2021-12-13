@@ -1,0 +1,80 @@
+.trending_container {
+  width: 100rem;
+  background-color: rgba(126, 126, 233, 0.3);
+  margin: 0 auto;
+  margin-top: 4rem;
+  padding: 2rem;
+}
+.trending_title {
+  text-align: center;
+  padding-top: 2rem;
+  color: rgb(126, 126, 233);
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+}
+.trending_item_btn {
+  text-align: center;
+  margin-top: 3rem;
+}
+.trending_item_btn h1 {
+  font-size: 2.4rem;
+}
+.trending_item_btn span {
+  background-color: rgb(126, 126, 233);
+  border: 2px solid rgb(126, 126, 233);
+  margin: 0rem 1rem;
+  padding: 1rem;
+  color: #ffff;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 0.1rem;
+}
+.trending_item_btn span:hover {
+  background: transparent;
+  color: rgb(126, 126, 233);
+}
+
+.trending_card_wrapper {
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  grid-gap: 2rem;
+  /* margin: 0 auto; */
+  /* margin-left: 4rem; */
+}
+
+.trending_item_card {
+  margin-top: 5rem;
+  text-align: center;
+  /* width: 20rem; */
+  background-color: rgb(126, 126, 233);
+  padding: 1rem 0rem;
+  border-radius: 0.2rem;
+}
+.trending_item_card img {
+  width: 20rem;
+  border-radius: 0.2rem;
+  background-size: cover;
+}
+.trending_item_card button {
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 20rem;
+  border-radius: 0.2rem;
+  background: transparent;
+  border: 2px solid #ffff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.trending_item_card button:hover {
+  background-color: #d8d8f8;
+  border: 2px solid #d8d8f8;
+  color: rgb(126, 126, 233);
+  font-weight: 600;
+}

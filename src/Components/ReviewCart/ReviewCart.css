@@ -1,0 +1,111 @@
+.review_cart_container {
+  width: 100rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.review_cart_item_wrapper {
+  display: flex;
+}
+.review_cart_item_container {
+  flex: 8;
+}
+.review_total_price_container {
+  flex: 4;
+}
+.review_cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background-color: rgb(175, 233, 233);
+  border-radius: 0.2rem;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.review_cart span {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.review_cart_right_item span {
+  margin: 0rem 3.4rem;
+}
+
+.item_review_cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(220, 243, 243);
+  padding: 1rem 1rem;
+  margin: 1rem 0rem;
+  border-radius: 0.2rem;
+  border: 1px solid rgb(190, 181, 181);
+}
+.item_review_cart span {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.item_review_cart span {
+  margin: 0rem 5rem;
+}
+.item_review_image {
+  display: flex;
+  align-items: center;
+}
+.item_review_image p:nth-child(1) {
+  font-size: 1rem;
+}
+.item_review_image p:nth-child(2) {
+  font-size: 0.6rem;
+  color: gray;
+}
+.item_review_image img {
+  width: 3rem;
+  border-radius: 3px;
+  margin-right: 1rem;
+}
+.fa-trash-alt {
+  cursor: pointer;
+}
+.review_total_price_box {
+  background-color: rgba(175, 233, 233, 0.5);
+  width: 30rem;
+  height: 30rem;
+  padding: 2rem;
+  margin-left: 3rem;
+}
+.cart_delivery_payment {
+  text-align: center;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+}
+.order_summary {
+  margin-top: 2rem;
+  font-weight: 400;
+}
+.order_total_container {
+  margin-top: 3rem;
+  border-bottom: 1px solid black;
+}
+.order_total,
+.delivery_charges {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0rem;
+}
+.total_payable {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.3rem;
+}
+.proceed_checkout_btn {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 0.2rem;
+  outline: none;
+  margin-top: 2rem;
+  background-color: azure;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}

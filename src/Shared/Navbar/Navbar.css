@@ -1,0 +1,49 @@
+.nav_container {
+  width: 100rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 2rem;
+  color: rgb(126, 126, 233);
+}
+.nav_e {
+  font-weight: 300;
+  color: rgb(126, 126, 233);
+}
+.fa-house-damage,
+.fa-laptop-house {
+  font-size: 4rem;
+}
+.nav_link_container a {
+  margin-left: 2rem;
+  background-color: rgb(126, 126, 233);
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.2rem;
+  color: #fff;
+  border: 1px solid rgb(126, 126, 233);
+  transition: all 0.3s ease-in-out;
+}
+.nav_link_container a:hover {
+  border: 1px solid rgb(126, 126, 233);
+  background: transparent;
+  color: rgb(126, 126, 233);
+}
+.shopping_bucket {
+  margin-left: 2rem;
+  background-color: rgb(126, 126, 233);
+  padding: 0.8rem 1.5rem;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+}
+.shopping_bucket i {
+  font-size: 1.4rem;
+  margin-right: 0.8rem;
+}

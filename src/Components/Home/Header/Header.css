@@ -1,0 +1,55 @@
+.main_header_wrapper {
+  background-color: azure;
+  width: 100%;
+}
+
+.header_container {
+  background-color: azure;
+  width: 100rem;
+  margin: 0 auto;
+}
+.header_container_wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.left_header_container h3 {
+  letter-spacing: 0.2rem;
+  /* margin-top: 0.3rem; */
+}
+.left_header_container h1 {
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+  margin-top: 0.3rem;
+}
+.left_header_container p {
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  margin-top: 0.3rem;
+}
+.visit_now_btn {
+  border: none;
+  outline: none;
+  background-color: rgb(126, 126, 233);
+  border: 2px solid rgb(126, 126, 233);
+  color: #fff;
+  padding: 1rem 5rem;
+  margin-top: 3rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.visit_now_btn:hover {
+  background: transparent;
+  color: rgb(126, 126, 233);
+  border: 2px solid rgb(126, 126, 233);
+}
+.right_header_container {
+}
+.right_header_container img {
+  max-width: 40rem;
+  width: 100%;
+}
